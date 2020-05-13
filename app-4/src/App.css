@@ -7,6 +7,32 @@
   pointer-events: none;
 }
 
+.container{
+  border: 2px solid black;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  width: 900px;
+}
+
+.container input{
+  margin: 10px;
+  padding: 10px;
+}
+
+.showbutton{
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: 0px;
+  border-radius: 7px;
+  margin: 20px;
+}
+
+.showbutton.hide{
+  background-color: red;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
